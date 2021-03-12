@@ -62,11 +62,6 @@ if (hasUppercase===true) {
 
 var randIndex = Math.floor(Math.random() *possibleCharacters.length);
 
-var colors = ["red","blue","green","yellow"];
-var randIndex = Math.floor(Math.random() * colors.length); // 0/1/2/3
-var randColor = colors[randIndex]
-var result
-
 // grab one character randomly
 // create a for loop, from 0 to password.length
 
