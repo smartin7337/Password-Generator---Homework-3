@@ -25,7 +25,7 @@ function determineLength(){
     }
 }
 
-//Function used to determine whether the user wants to include uppercase characters in the password
+// function used to confirm whether the user wants to include uppercase characters
 function determineUppercase(){
   uppercaseCheck = prompt("Do you want to include uppercase letters in your password? \n(Yes or No)");
     uppercaseCheck = uppercaseCheck.toLowerCase();
@@ -98,7 +98,6 @@ function determineSpecial(){
 }
 
  // take all the input from the last functions and generate a password using a random number generator
- //the charAt method 
 function generatePassword(){
   determineLength();
   console.log(passwordLength);
